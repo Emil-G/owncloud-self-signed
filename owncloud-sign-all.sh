@@ -26,10 +26,10 @@
 #
 
 # owncloud installation path
-OCPath=/var/www/www.wareld.com/owncloud
+OCPath=/var/www/html/owncloud
 
-# owncloud user (on Debian with Apache2: www-data)
-OCUser=www-data
+# owncloud user (on Debian with Apache2: www-data, RH = apache)
+OCUser=apache
 
 # generate a one-time private key and self-signed certificate :
 openssl req -nodes -new -x509 -subj "/C=US/ST=Fake/L=CodeSigning/O=ByPass/CN=core" -days 3650  -keyout /tmp/private.key -out /tmp/cert.pem
